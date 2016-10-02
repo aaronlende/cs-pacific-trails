@@ -19,29 +19,30 @@ header {
 
 nav {
     font-weight: bold;
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
     text-align: center;
     padding: 10px 10px;
+    float: left;
 }
 
 nav a {
     text-decoration: none;
 }
 
-main h2 {
+h2 {
     font-family: Georgia, "Times New Roman", serif;
     color: #3399CC;
-    text-shadow: 1px 1px 1px #CCCCCC;
+    text-shadow: 1px 1px #CCCCCC;
 }
 
-main h3 {
+h3 {
     font-family: Georgia, "Times New Roman", serif;
     color: #000033
 }
 
 .resort {
     font-weight: bold;
-    color: #5C7FA3
+    color: #5C7FA3;
 }
 
 h1 {
@@ -60,6 +61,8 @@ footer {
     text-align: center;
     font-family: Georgia, "Times New Roman", serif;
     padding: 20px 20px;
+    margin-left: 190px;
+    background-color: #FFFFFF;
 }
 
 #contact {
@@ -70,10 +73,10 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    background-color: #FFFFFF;
+    background-color: #90C7E3;
     min-width: 960px;
     max-width: 2048px;
-    box-shadow: 3px 3px 3px #333333;
+    box-shadow: 3px 3px #333333;
 }
 
 main {
@@ -81,6 +84,9 @@ main {
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
+    margin-left: 190px;
+    display: block;
+    background-color: #FFFFFF;
 }
 
 #homehero {
@@ -88,6 +94,7 @@ main {
     background-image: url(images/coasthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #yurthero {
@@ -95,6 +102,7 @@ main {
     background-image: url(images/yurthero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 
 #trailhero {
@@ -102,4 +110,18 @@ main {
     background-image: url(images/trailhero.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+nav ul a:visited {
+    color:#344873;
+}
+nav ul a:link {
+    color:#000033;
 }
